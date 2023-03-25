@@ -1,0 +1,28 @@
+body {
+  background-color: red;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  transition: background-color .6s linear;
+}
+
+
+
+.random__btn {
+  background-color: inherit;
+}
+
+.random__btn:hover {
+  transform: scale(1.1);
+}
+
+.random__btn button {
+  padding: 20px;
+  border: 0;
+  border-radius: 1000%;
+  background: white;
+  cursor: pointer;
+}
